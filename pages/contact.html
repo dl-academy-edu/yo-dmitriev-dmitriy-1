@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLK - Contact Us</title>
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <main>
+        <section class="container contact">            
+            <form class="contact__form" action="#" method="post">
+                <div class="contact__label-wrapper">
+                    <label class="contact__label" for="Name">Name</label>
+                    <input class="contact__input" type="text" id="Name" placeholder="Ivan Ivanov">
+                </div>
+                <div class="contact__two-input">
+                    <div class="contact__label-wrapper">
+                        <label class="contact__label" for="Phone">Phone</label>
+                        <input class="contact__input" type="tel" id="Phone">
+                    </div>
+                    <div class="contact__label-wrapper">
+                        <label class="contact__label" for="Email">Email</label>
+                        <input class="contact__input" type="email" id="Email">
+                    </div>
+                </div>                
+                <div class="contact__label-wrapper">
+                    <label class="contact__label" for="Message">Messege</label>
+                    <textarea class="contact__area" id="Messege" cols="30" rows="10"></textarea>
+                </div>
+                <fieldset class="contact__payment">
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <input class="contact__item-input" type="checkbox">
+                        <li class="contact__text">
+                            <p class="contact__item-text">By clicking on the button, you consent to the processing of your personal data</p>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button class="contact__btn">SUBMIT</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

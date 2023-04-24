@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="Name">DLK</title>
+    <title>DLK</title>
 </head>
 <body>
-    <header>
+    <!--Шапка сайта-->
+    <header class="header">
         <a href="/"><img src="#" alt="Logotype of DLK"></a>
         <nav class="nav">
-            <ul>
-                <li class="nav__list"><a href="#">BLOG</a></li>
-                <li class="nav__list"><a href="#">CATALOG</a></li>
-                <li class="nav__list"><a href="#">ABOUT US</a></li>
-                <li class="nav__list">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">BLOG</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">CATALOG</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">ABOUT US</a></li>
+                <li class="nav__item">
                     <img src="./img/magnifyingGlass.png" alt="CONTACT US">
-                    <a href="#" class="nav__list-search">CONTACT US</a>                
+                    <a href="#" class="nav__link">CONTACT US</a>                
                 </li>
             </ul>
         </nav>      
     </header>
+    <!--Главное содержимое страницы-->
     <main>
-        <section class="baner">
-            <h1 class="baner__title">THE OOH NOO COLLECTION</h1>
-            <p class="baner__link">Designet in Slovenia</p>
-            <p><button class="baner__btn">EXPLORE NOW</button></p>
-            <p class="baner__postscript">FREE (CONTINENTAL) usa shipping on all orders of $100 usd or more</p>
+        <!--Разделы главной страницы-->
+        <section class="banner">
+            <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
+            <p class="banner__text">Designet in Slovenia</p>
+            <button class="banner__btn">EXPLORE NOW</button>
+            <p class="banner__postscript">FREE (CONTINENTAL) usa shipping on all orders of $100 usd or more</p>
         </section>
+        <!--Раздел категория продуктов главной страницы-->
         <section class="products">
             <h2 class="products__title">CATEGORY PRODUCTS</h2>
             <ul class="products__list">
                 <li class="products__list-item">
                     <img src="./img/apparelKids.png" alt="APPAREL KIDS" class="products__img">
-                    <h3 class="products__list-item-title">APPAREL KIDS</h3>
+                    <h3 class="products__list-title">APPAREL KIDS</h3>
                 </li>
                 <li class="products__list-item">
                     <img src="./img/holidayShop.png" alt="HOLIDAY SHOP" class="products__img">
@@ -48,56 +52,65 @@
                     <h3 class="products__list-item-title">ACCESSORIES</h3>
                 </li>
             </ul>
+            <button class="btn">
+                <img src="./img/Vector1.png" alt="#" class="btn__vector">
+            </button>
+            <button class="btn">
+                <img src="./img/Vector2.png" alt="#" class="btn__vector">
+            </button>
+            <p class="description">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
-        <button class="btn">
-            <img src="./img/Vector1.png" alt="#" class="btn__vector">
-        </button>
-        <button class="btn">
-            <img src="./img/Vector2.png" alt="#" class="btn__vector">
-        </button>
-        <p class="description">Modern finds for the modern home. Curated goods by unique designers
-            <p class="description">around the world from fashion to furniture for kids and adults.</p>
-   
+        <!--Предистория сайта-->   
         <section class="delivery">
-            <img src="./img/girl.jpg" alt="#" class="delivery_img">
-            <h2 class="delivery__description">DELIVERY</h2>
-            <a href="#" class="delivery__title">Delivery</a>
-            <h3 class="delivery__item">Guarantee</h3>
-            <h3 class="delivery__item">Credit</h3>
-            <p class="delivery__text">Some days i feel like i've been working on dlk my entire life and</p>
-                <p class="delivery__text">there are other days that i am compleyely shocked that four</p>
-                    <p class="delivery__text">years have flown by. It's simply magical.</p>
-            <p class="delivery__text-two">What started as an outlet to deal  with the traumatic loss of my</p>
-                <p class="delivery__text-two">husband, dlk has now become a truly happy place for me and i</p>
-                    <p class="delivery__text-two">have you and all of the beautiful designers that we work with</p>
-                        <p class="delivery__text-two">to thank!</p>
-            <p><button class="delivery__btn">LEARN MORE</button></p>
+            <div class="story">
+                <img src="./img/girl.jpg" alt="#" class="story_img">
+                <h2 class="story__description">DELIVERY</h2>
+                <a href="#" class="story__title">Delivery</a>
+                <h3 class="story__item">Guarantee</h3>
+                <h3 class="story__item">Credit</h3>
+                <p class="delivery__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am compleyely shocked that four years have flown by. It's simply magical.</p>
+                <p class="delivery__text-two">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                <button class="delivery__btn">LEARN MORE</button>
+            </div>
         </section>
-        <a href="/">
-            <img src="#" alt="@mail.ru" class="partners__name">
-            <img src="#" alt="Apple" class="partners__name">
-            <img src="#" alt="ELTEX" class="partners__name">
-            <img src="#" alt="OWOX" class="partners__name">
-        </a>
-        <div class="design">
-            <h2 class="design__dsn">DESIGN LIFE KIDS</h2>
-            <h3 class="design__list">About Us</h3>
-            <p class="design__text">Some days i feel like i've been working on dlk my entire life and</p>
-                <p class="design__text">there are other days that i am completely shocked that four</p>
-                    <p class="design__text">years have flown by. It's simply magical.</p>
-            <p><button class="design__btn">BUY NOW</button></p>
-        </div>      
-        <div>
-            <h2 class="contacts">CONTACTS</h2>
-            <p class="contacts__text">Some days i feel like i've been working on dlk my entire life and</p>
-                <p class="contacts__text"> there are other days that i am completely shocked that four</p>
-                    <p class="contacts__text"> years have flown by. It's simply magical.</p>
-            <a href="/">
-                <img src="./img/map.png" alt="map" class="map">
-            </a>
-        </div>
-        <footer>
-            <div>
+        <!--Наши партнеры-->
+        <section class="partners">
+            <ul class="partners__list">
+                <li>
+                    <img src="./img/mail.ru.png" alt="@mail.ru" class="partners__name">
+                </li>
+                <li>
+                    <img src="./img/Apple.png" alt="Apple" class="partners__name">
+                </li>
+                <li>
+                    <img src="./img/Eltex.png" alt="ELTEX" class="partners__name">
+                </li>
+                <li>
+                    <img src="./img/Owox.png" alt="OWOX" class="partners__name">
+                </li>
+            </ul>
+        </section>
+        <!--Дизайнерская жизнь для детей-->
+        <section class="life">
+            <div class="life__design">
+                <h2 class="life__dsn">DESIGN LIFE KIDS</h2>
+                <h3 class="life__list">About Us</h3>
+                <p class="life__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <button class="life__btn">BUY NOW</button>
+            </div>
+            <div class="life__contacts">
+                <h2 class="contacts__cont">CONTACTS</h2>
+                <p class="contacts__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <div class="map">
+                    <a href="/">
+                        <img src="./img/map.png" alt="map" class="life__map">
+                    </a>
+                </div>
+            </div>
+        </section>        
+        <!--Подвал сайта-->
+        <footer class="footer">
+            
                 <ul>
                     <li class="spisok"><a href="#">Navigatioh</a></li>
                     <li class="spisok"><a href="#">Customer Information</a></li>
@@ -106,18 +119,18 @@
                 <hr class="line">
                 <hr class="line">
                 <hr class="line">
-                <p><a href="/" class="line__item1">About Us</a></p>
-                <p><a href="/" class="line__item1">Blog</a></p>
-                <p><a href="/" class="line__item1">Design Services</a></p>
-                <p><a href="/" class="line__item1">Featured On</a></p>
-                <p><a href="/" class="line__item1">2018 Holiday Catalog</a></p>
-                <p><a href="/" class="line__item1">Shop By designers</a></p>
-                <p><a href="/" class="line__item2">Contact Us</a></p>
-                <p><a href="/" class="line__item2">Sale Exclusions</a></p>
-                <p><a href="/" class="line__item2">Shipping & Returns</a></p>                
-                <p><a href="/" class="line__item2">Terms & Conditions</a></p>
-                <p><a href="/" class="line__item2">Privacy Policy</a></p>
-                <p><a href="/" class="line__item2">Search</a></p>               
+                <p><a href="#" class="line__item1">About Us</a></p>
+                <p><a href="#" class="line__item1">Blog</a></p>
+                <p><a href="#" class="line__item1">Design Services</a></p>
+                <p><a href="#" class="line__item1">Featured On</a></p>
+                <p><a href="#" class="line__item1">2018 Holiday Catalog</a></p>
+                <p><a href="#" class="line__item1">Shop By designers</a></p>
+                <p><a href="#" class="line__item2">Contact Us</a></p>
+                <p><a href="#" class="line__item2">Sale Exclusions</a></p>
+                <p><a href="#" class="line__item2">Shipping & Returns</a></p>                
+                <p><a href="#" class="line__item2">Terms & Conditions</a></p>
+                <p><a href="#" class="line__item2">Privacy Policy</a></p>
+                <p><a href="#" class="line__item2">Search</a></p>               
                 <form class="email">
                     <input type="email" name="email"><button class="email__btn">JOIN</button>
                 </form>            
