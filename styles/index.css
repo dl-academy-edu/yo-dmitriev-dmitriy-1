@@ -1,53 +1,17 @@
-* {
-    box-sizing: border-box;
+/* THE OOH NOO COLLECTION */
+.banner { 
+    background-color: #eee4db;
+    width: 1180px;
+    height: 411px;
+    top: 231px;
 }
 
-ul {
-    list-style-type: none;
-}
-
-.container {
-    max-width: 1178px;
-    margin: 0 auto;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    margin: 50px 60.05px;
-    margin-left: 106px;
-}
-
-.header__logo {
-    display: flex;
-}
-
-.header__nav {
-    margin-right: auto;
-}
-
-.header__nav-list {
-    display: flex;
-    justify-content: space-around;  
-}
-
-.header__nav-item:not(:last-child) {    
-    margin-right: 20.02px;
-}
-
-.nav__item {
-    list-style-type: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}
-
-.header__additional-list {
-    display: flex;
-}
-
-.header__additional-item:not(:last-child) {
-    margin-right: 23.47px;
+.products__list-item {
+    display: inline-block ;
 }
 
 
 
+.products {
+    background-color: #eee4db;
+}

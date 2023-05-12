@@ -21,9 +21,9 @@
         </a>
         <nav class="header__nav">
             <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#">BLOG</a></li>
-                <li class="header__nav-item"><a href="#">CATALOG</a></li>
-                <li class="header__nav-item"><a href="#">ABOUT US</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-link" href="#">BLOG</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-link" href="#">CATALOG</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-link" href="#">ABOUT US</a></li>
             </ul>
         </nav>   
         <ul class="header__additional-list">
@@ -36,16 +36,16 @@
         </ul>   
     </header>
     <!--Главное содержимое страницы-->
-    <main class="container">
+    <main class="rectangle">
         <!--Разделы главной страницы-->
-        <section class="banner">
-            <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
+        <section class="banner container">
+            <h1 class="banner__title text">THE OOH NOO COLLECTION</h1>
             <p class="banner__text">Designet in Slovenia</p>
             <button class="banner__btn">EXPLORE NOW</button>
             <p class="banner__postscript">FREE (CONTINENTAL) usa shipping on all orders of $100 usd or more</p>
         </section>
         <!--Раздел категория продуктов главной страницы-->
-        <section class="products">
+        <section class="products container">
             <h2 class="products__title">CATEGORY PRODUCTS</h2>
             <ul class="products__list">
                 <li class="products__list-item">
@@ -66,15 +66,15 @@
                 </li>
             </ul>
             <button class="btn">
-                <img src="./img/Vector1.png" alt="#" class="btn__vector">
+                <img src="./img/arrow-left.png" alt="#" class="btn__vector">
             </button>
             <button class="btn">
-                <img src="./img/Vector2.png" alt="#" class="btn__vector">
+                <img src="./img/arrow-right.png" alt="#" class="btn__vector">
             </button>
             <p class="description">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
         <!--Предистория сайта-->   
-        <section class="delivery">
+        <section class="delivery container">
             <div class="story">
                 <img src="./img/girl.jpg" alt="#" class="story_img">
                 <h2 class="story__description">DELIVERY</h2>
@@ -87,7 +87,7 @@
             </div>
         </section>
         <!--Наши партнеры-->
-        <section class="partners">
+        <section class="partners container">
             <ul class="partners__list">
                 <li>
                     <img src="./img/mail.ru.png" alt="@mail.ru" class="partners__name">
@@ -104,7 +104,7 @@
             </ul>
         </section>
         <!--Дизайнерская жизнь для детей-->
-        <section class="life">
+        <section class="life container">
             <div class="life__design">
                 <h2 class="life__dsn">DESIGN LIFE KIDS</h2>
                 <h3 class="life__list">About Us</h3>
