@@ -1,0 +1,17 @@
+/* THE OOH NOO COLLECTION */
+.banner { 
+    background-color: #eee4db;
+    width: 1180px;
+    height: 411px;
+    top: 231px;
+}
+
+.products__list-item {
+    display: inline-block ;
+}
+
+
+
+.products {
+    background-color: #eee4db;
+}
