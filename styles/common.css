@@ -3,10 +3,12 @@
     color: #1E0606;
 }
 
+/* Удаляем маркер элементам списка */
 ul {
     list-style-type: none;
 }
 
+/* Параметры названия */
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -14,43 +16,76 @@ h1 {
     font-style: normal;
 }
 
+/* Общие данныестраницы ширина, отступ */
 .container {
     max-width: 1180px;
     margin: 110px;
 }
 
+/* Общие показатели шапки */
 .header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
     margin: 50px 60.05px;
     margin-left: 106px;
 }
 
+/* Прозрачность при наведении */
+.header > a:hover {
+    opacity: .6;
+}
+
+.header__nav :hover {
+    opacity: .6
+}
+
+.header__additional-list :hover {
+    opacity: .6;
+}
+
+/* Прозрачность при клик */
+.header > a:active {
+    opacity: .3;
+}
+
+.header__nav :active {
+    opacity: .3
+}
+
+.header__additional-list :active {
+    opacity: .3;
+}
+
+/* Логотип */
 .header__logo {
     display: flex;
 }
 
+/* Общие показатели элементов списка */
 .header__nav {
     margin-right: auto;
     text-decoration: none;
 }
+
 
 .header__nav-list {
     display: flex;
     justify-content: space-around;  
 }
 
+/* Отступы между элементами, кроме первого */
 .header__nav-item:not(:last-child) {    
     margin-right: 20.02px;
 }
 
+/* Убираем нижнее почеркивание */
 .header__nav-item-link {
     text-decoration: none;
-}
-
-.nav__item {
-    list-style-type: none;
-    font-weight: 400;
 }
 
 .header__additional-list {
@@ -61,10 +96,7 @@ h1 {
     margin-right: 23.47px;
 }
 
+/* Убираем нижнее почеркивание CONTACT us */
 .header__additional-link {
     text-decoration: none;
-}
-
-.banner {
-    background-size: auto;
 }

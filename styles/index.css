@@ -1,16 +1,16 @@
+/* класс rectangle не задействован */
+
 /* THE OOH NOO COLLECTION */
 .banner { 
     background-color: #eee4db;
-    width: 1180px;
     height: 411px;
     top: 231px;
 }
-
-.products__list-item {
-    display: inline-block ;
+     
+.banner__list {
+    display: inline;
+    margin: 133px;
 }
-
-
 
 .products {
     background-color: #eee4db;
