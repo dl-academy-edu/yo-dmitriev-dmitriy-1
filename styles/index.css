@@ -22,19 +22,26 @@
     font-style: normal;
     list-style-type: none;
     margin-top: 0;
-    padding: 10px 0px 0px 31px;
+    padding: 3px 31px;
+
+    
+    cursor: pointer;  
 }
 
 .banner__rectangle-item {
-    margin: 10px 0 0 0;
-    
+    /* margin: 10px 0 0 31px; */
+    /* padding: 10px 0px 0px 31px; */
+    color: #D6CAC2; 
+}
 
+.banner__rectangle-btn1 {
+    color: #1E0606;
 }
 
 .banner__rectangle-btn {
     background: rgba(30, 6, 6, 0.6);
-    padding: 3px 31px;
-    cursor: pointer;  
+    cursor: pointer;
+     
 }
      
 .banner__text {
