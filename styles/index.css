@@ -1,6 +1,6 @@
 /* THE OOH NOO COLLECTION */
 .banner { 
-    display: flex;
+    display: block;
     background-color: #eee4db;
     background-position: center;
     height: 411px;
@@ -31,7 +31,6 @@
 .banner__rectangle-item {
     /* margin: 10px 0 0 31px; */
     /* padding: 10px 0px 0px 31px; */
-    color: #D6CAC2; 
 }
 
 .banner__rectangle-btn1 {
@@ -41,7 +40,7 @@
 .banner__rectangle-btn {
     background: rgba(30, 6, 6, 0.6);
     cursor: pointer;
-     
+    color: #D6CAC2;  
 }
      
 .banner__text {
