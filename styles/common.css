@@ -10,10 +10,10 @@ ul {
 
 /* Параметры названия */
 h1 {
-    /* font-family: "Montserrat", sans-serif; */
-    /* font-weight: 700; */
-    /* font-size: 40px; */
-    /* font-style: normal; */
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
 }
 
 /* Общие данныестраницы ширина, отступ */
@@ -25,7 +25,6 @@ h1 {
 /* Общие показатели шапки */
 .header {
     font-family: "Open Sans", Arial, sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     display: flex;
@@ -76,6 +75,7 @@ h1 {
 /* Отступы между элементами, кроме первого */
 .header__nav-item:not(:last-child) {    
     margin-right: 20.02px;
+    font-weight: 400;
 }
 
 /* Убираем нижнее почеркивание */
@@ -94,4 +94,5 @@ h1 {
 /* Убираем нижнее почеркивание CONTACT us */
 .header__additional-link {
     text-decoration: none;
+    font-weight: 700;
 }

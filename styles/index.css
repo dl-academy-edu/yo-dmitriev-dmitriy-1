@@ -3,10 +3,8 @@
     position: relative;
     background-color: #eee4db;
     display: flex;
-    /* background-position: center; */
     height: 411px;
     margin-top: 129px;
-
     /* margin: 129px 110px 0px 110px; */
     /* width: 1080; */
 }
@@ -18,15 +16,6 @@
     padding-inline-start: 0%;
     /* padding: 3px 31px; */
     /* cursor: pointer;   */
-}
-
-.banner__rectangle-item1 {
-    margin-top: 0px;
-}
-
-
-.banner__rectangle-item {
-    margin-top: 0px;
 }
 
 .banner__rectangle-text {
@@ -41,116 +30,122 @@
     margin-bottom: 0px;
 }
 
-.banner__rectangle-item1 {
-    margin-top: 11px;
-    display: list-item;
-    text-align: left;
-    /* margin: 10px 0 0 31px; */
-    /* padding: 10px 0px 0px 31px; */
-}
-
 .banner__rectangle-item {
-    margin-top: 10px;
+    /* margin-top: 0px; */
     display: list-item;
     text-align: left;
+    cursor: pointer;
     /* margin: 10px 0 0 31px; */
     /* padding: 10px 0px 0px 31px; */
 }
 
 .banner__rectangle-btn1 {
+    background: #1E0606;
     color: #1E0606;
-    margin-left: 31px;
-    padding: 0%;
-    border: 0cm;
+    margin-left: 31px;     
     background: rgba(30, 6, 6, 0.6);
+    border: none;
 }
 
 .banner__rectangle-btn {
-    background: #D6CAC2
-    cursor: pointer;
-    color: #D6CAC2;
     margin-left: 31px;
-    padding: 0%;
-    border: 0cm;
+    color: #D6CAC2;
+    border: none;
+    background: #D6CAC2
+}
+
+/* Прозрачность при наведении */
+.banner__rectangle-btn > a:hover {
+    background: #1E0606;
+    color: #1E0606;
+    /* border-color: #1E0606; */
+    /* background-color: transparent; */
 }
 
 .banner__name {
-    color: #1e0606;
-    margin-top: 89px;
+    margin-top: 70px;
+    margin-bottom: 0%;
     padding-left: 44px;
+    overflow: hidden;
+    max-width: 355px ;
 }
 
 .banner__name-list {
     font-family: 'Montserrat', Arial, sans-serif;
-    display: flex;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
 }
-/*       */
-/* .banner__text { */
-    /* display: block; */
-    /* padding-left: 133px; */
-/* } */
 
-/* .banner__list { */
-    /* font-family: 'Montserrat', Arial, sans-serif; */
-    /* display: flex; */
-    /* font-style: normal; */
-    /* font-weight: 700; */
-    /* font-size: 40px; */
-    /* line-height: 100%; */
-    /* max-width: 600px; */
-    /* color: #1E0606; */
-    /* padding: 89px 0 0 133px; */
-/* } */
+.banner__name-title {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
 
-/* .banner__title { */
-    /* display: flex; */
-    /* font-family: 'Crimson Text', Arial, sans-serif; */
-    /* font-style: italic; */
-    /* font-weight: 400; */
-    /* font-size: 20px; */
-    /* line-height: 26px; */
-    /* text-align: center; */
-    /* text-transform: uppercase; */
-    /* color: #1E0606; */
-    /* margin: 197px 133px; */
-/* } */
+.banner__name-btn {
+    padding: 0%;
+    border: none;
+    background-color: #1E0606;
+    text-align: center;
+    color: #FFF;
+}
 
-/* .banner__btn { */
-    /* font-family: 'Open Sans', Arial, sans-serif; */
-    /* font-style: normal; */
-    /* font-weight: 700; */
-    /* font-size: 16px; */
-    /* line-height: 22px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* text-transform: uppercase; */
-    /* flex-direction: row; */
-    /* align-items: center; */
-    /* padding: 9px 22px; */
-    /* gap: 10px; */
-    /* position: absolute; */
-    /* background: #000000; */
-    /* color: #FFF; */
-    /* margin: 243px 133px; */
-/* } */
+.banner__name-img {
+    position: absolute;
+    transform: translate(71%, -19%);
+    /* margin: 142px 555px; */
+}
 
-/* .banner__img { */
-    /* position: absolute; */
-    /* left: 555px; */
-    /* top: 142px; */
-/* } */
+.banner__name-postscript {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    background: #C29974;
+    color: #FFF;
+    text-align: center;
+    margin-top: 372px;
+    padding-top: 11px;
+    text-transform: uppercase;
+}
 
-/* .banner__postscript { */
-    /* background: #C29974; */
-/* } */
-
-
-/* .products { */
-    /* position: absolute; */
+.products {
+    position: relative;
     /* background-color: #eee4db; */
-/* } */
+    /* height: 411px; */
+    /* margin-top: 129px; */
+}
+
+.products__title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin-top: 90px;
+}
+
+.products__list {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.products__list-item1 {
+    /* position: absolute; */
+    background-color: #DBE4DB;
+    background-image: url('../img/apparelKids.png');
+
+
+}
+
+.products__list-img {
+
+}
