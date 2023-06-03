@@ -222,26 +222,34 @@
     margin: 109px 24px;
 }
 
-.btn {
-    position: absolute;
-    background: rgba(112, 187, 220, 0.2);
-    margin-top: 38px;
+.products__btn {
+    display: flex;
+    margin-top: 33px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
-.btn__vector1 {
+.products__btn-item {
+    position: relative;
+    background: #70BBDC;
+    margin-right: 6px;
+    box-sizing: border-box;
+}
+
+.products__btn-item {
     /* position: absolute; */
-    /* box-sizing: border-box; */
-    
+    margin-top: 5px 12px;
+    border: none;
+    margin-right: 6px;
 }
 
 .btn__vector2 {
-    /* position:absolute; */
- 
-
+    position:absolute;
 }
 
-.descripthion {
-    position: relative;
+.products__descripthion {
+    position: absolute;
+    margin-left: 20px;
 }
 
 
