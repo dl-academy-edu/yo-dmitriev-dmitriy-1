@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     color: #1E0606;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
 /* Удаляем маркер элементам списка */
@@ -74,7 +76,7 @@ h1 {
 
 /* Отступы между элементами, кроме первого */
 .header__nav-item:not(:last-child) {    
-    margin-right: 20.02px;
+    margin-right: 20px;
     font-weight: 400;
 }
 
