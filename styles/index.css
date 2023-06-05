@@ -1,4 +1,4 @@
-/* THE OOH NOO COLLECTION */
+/* Раздел главной страницы */
 .banner { 
     position: relative;
     background-color: #eee4db;
@@ -115,6 +115,7 @@
     text-align: center;
 }
 
+/* Раздел категория продуктов главной страницы */
 .products {
     /* position: relative; */
     /* background-color: #eee4db; */
@@ -266,29 +267,227 @@
     margin-top: 0;
 }
 
-.story__item {
-    display: inline-block;
-    position: relative;
+/* Предыстория сайта */
+.delivery {
+    display: flex;
     margin-top: 94px;
 }
 
-.story__img {
-    position: absolute;
-    margin-top: 90px;
-}
-
-.story__item {
-    /* padding-left: 601px; */
+.story__item-delivery {
+    display: block;
+    margin-left: 121px;
+    color: #1E0606;
 }
 
 .story__description {
-    position: absolute;
+    /* position: absolute; */
     font-family: 'Montserrat', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
-    color: #1E0606;
+    margin: 0 auto;
     margin-top: 30px;
-    margin-left: 601px;
+    /* margin-left: 601px; */
     text-transform: uppercase;
 }
+
+.story__delivery {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 7px;
+    background: #d0eefb;
+    width: 326px;
+    height: 55px;
+    padding: 11px;
+    padding-left: 60px;
+    margin-left: -61px;
+}
+
+.story__guarantee {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 72px;
+}
+
+.story__credit {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 127px;
+}
+
+.delivery__text-one {
+    position: absolute;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 190px;
+    max-width: 480px;
+}
+
+.delivery__text-two {
+    position: absolute;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 271px;
+    max-width: 480px;
+}
+
+.delivery__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    position: absolute;
+    background: #000;
+    margin-top: 385px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+}
+
+/* Наши партнеры */
+.partners__list {
+    display: flex;
+    margin-top: 90px;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+/* Дизайнерская жизнь детей */
+.life {
+    display: flex;
+    /* margin-left: 30px; */
+    /* flex-direction: row; */
+    /* background: #E1F0F7; */
+    /* width: 543px; */
+    /* height: 228px; */
+    /* margin-left: 110px; */
+}
+
+.life__kids-dsn {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin: 90px 0 10px 30px;
+    margin-bottom: 10px;
+}
+
+.life__kids-list {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    margin-left: 30px;
+    line-height: 34px;
+}
+
+.life__kids-text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -65px;
+    margin-bottom: 0;
+    color: #1E0606;
+    /* text-align: center; */
+    background: #E1F0F7;
+    width: 543px;
+    height: 228px;
+    padding: 74px 30px 0;
+}
+
+.life__kids-btn {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    /* position: absolute; */
+    background: #000;
+    /* margin-top: 385px; */
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    margin-top: -67px;
+    margin-left: 30px;
+}
+
+.contacts__cont {
+    display: flex;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin: 90px 0 0 87px;
+    margin-left: 87px;
+    text-align: center;
+}
+
+.contacts__text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -23px;
+    margin-left: 57px;
+    color: #1E0606;
+    /* text-align: center; */
+    background: #E1F0F7;
+    width: 543px;
+    height: 209px;
+    padding: 41px 30px 0;
+}
+
+.contacts__map {
+    display: flex;
+    /* margin-top: 385px; */
+    margin-top: -77px;
+    margin-left: 87px;
+}
+
+
+
+
