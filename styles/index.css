@@ -36,6 +36,7 @@
     text-align: left;
     cursor: pointer;
     border: none;
+
     /* margin: 10px 0 0 31px; */
     /* padding: 10px 0px 0px 31px; */
 }
@@ -56,7 +57,7 @@
 }
 
 /* Прозрачность при наведении */
-.banner__rectangle-btn > a:hover {
+.banner__rectangle-btn:hover {
     background: #1E0606;
     color: #1E0606;
     /* border-color: #1E0606; */
@@ -487,6 +488,7 @@
     margin-top: -77px;
     margin-left: 87px;
 }
+
 
 
 
