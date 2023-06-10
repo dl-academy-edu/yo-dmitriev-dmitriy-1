@@ -100,10 +100,12 @@ h1 {
 }
 
 .footer {
-    /* display: flex; */
+    display: flex;
     background: #434343;
-    position: absolute;
-    margin: 50px 0 0 0;
+    /* position: absolute; */
+    background-position: center;
+    margin: auto;
+    margin-top: 50px;
     width: 1400px;
     height: 555px;
     font-family: "Open Sans", Arial, sans-serif;
@@ -123,6 +125,7 @@ h1 {
     font-size: 16px;
     line-height: 22px;
     color: #AAA;
+    margin-top: 100px;
     border-bottom: 1px solid #666666;
     margin-bottom: 20px;
     padding-bottom: 23px;
@@ -132,20 +135,17 @@ h1 {
 
 .footer__one {
     position: absolute;
-    margin-top: 100px;
     margin-left: 110px;
 }
 
 .footer__two {
     /* display: flex; */
     position: absolute;
-    margin-top: 100px;
     margin-left: 510px;
 }
 
 .footer__tree {
     position: absolute;
-    margin-top: 100px;
     margin-left: 910px;
 }
 
@@ -164,16 +164,16 @@ h1 {
     font-size: 16px;
     line-height: 22px;
     padding: 0;
-    /* margin: 110px; */
     margin: 0;
 }
 
 .footer__list {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer__list-item {
     color: #FFF;
+    text-decoration: none;
 }
 
 .footer__customer {
@@ -194,7 +194,7 @@ h1 {
 }
 
 .footer__customer-list {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer__customer-item {
@@ -205,6 +205,7 @@ h1 {
 .footer__connect {
     position: absolute;
     margin-left: 910px;  
+    margin-top: 171px;
 }
 
 input[type="email"] {
@@ -243,21 +244,21 @@ input::-webkit-input-placeholder {
 }
 
 .media-one {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .media-two {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
 .media-tree {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
 .media-four {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
@@ -270,7 +271,7 @@ input::-webkit-input-placeholder {
 .footer__bottom-leftstr {
     position: absolute;
     color: #FFF;
-    margin-top: 213px;
+    margin-top: 433px;
     margin-left: 110px;
     border-top: 1px solid #666666;
     padding-top: 23px;
@@ -278,18 +279,17 @@ input::-webkit-input-placeholder {
 }
 
 .footer__bottom-first {
-    /* position: relative; */
-    /* margin-top: 200px; */
     margin-left: 258px;
 }
 
 .footer__bottom-img {
-    margin-top: 240px;
+    margin-top: 461px;
+    padding-left: 3px;
 }
 
 .footer__bottom-centrstr {
     border-top: 1px solid #666666;
-    margin-top: -45px;
+    margin-top: -47px;
     padding-top: 23px;
     margin-left: 510px;
     color: #FFF;
@@ -303,5 +303,4 @@ input::-webkit-input-placeholder {
     margin-left: 910px;
     color: #FFF;
     width: 400px;
-
 }
