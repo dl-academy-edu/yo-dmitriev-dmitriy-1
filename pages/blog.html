@@ -7,7 +7,7 @@
     <title>DLK</title>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/common.css">
-    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <!--Шапка сайта-->
     <header class="header container">
         <a class="header__logo" href="/">
-            <img class="header__logo-img" src="./img/DLK.png" alt="Logotype of DLK"
+            <img class="header__logo-img" src="../img/DLK.png" alt="Logotype of DLK"
             width="100.08px" height="52px">
         </a>
         <nav class="header__nav">
@@ -34,7 +34,7 @@
         </nav>   
         <ul class="header__additional-list">
             <li class="header__additional-item">
-                <img class="header__additional-img" src="./img/magnifyingGlass.png" alt="CONTACT US">
+                <img class="header__additional-img" src="../img/magnifyingGlass.png" alt="CONTACT US">
             </li>
             <li class="header__additional-item">
                 <a class="header__additional-link" href="#">CONTACT US</a>
@@ -44,19 +44,17 @@
     <!--Главное содержимое страницы-->
     <!--Разделы главной страницы-->
     <main>
-        <section class="blog">
+        <section class="blog container">
             <h1 class="blog__main">BLOG</h1>
-            <ul class="blog__main-list">
-                <li class="blog__main-item">
-                    <a href="/" class="blog__main-text" href="#">Home</a>
+            <ul class="blog__list">
+                <li class="blog__list-item">
+                    <a href="/" class="blog__list-text" href="#">Home</a>
+                </li>
+                <li class="blog__list-item">
+                    <img src="../img/icon.png" alt="#" class="blog__list-img">
                 </li>
                 <li class="blog__main-item">
-                    <button class="blog__main-vector">
-                        <img src="../img/arrow-right.svg" alt="#" class="products__main-img">
-                    </button>            
-                </li>
-                <li class="blog__main-item">
-                    <a href="/" class="blog__main-text" href="#">Blog</a>
+                    <a href="/" class="blog__list-text" href="#">Blog</a>
                 </li>
             </ul>
             <ul class="blog__list">
@@ -78,6 +76,8 @@
                     <h3 class="blog__list-header">Company logo or brand identity: which one is more important? brand identity</h3>
                     <p class="blog__list-offer">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
                 </li>
+            </ul>
+            <ul class="blog__list">   
                 <li class="blog__list-item">
                     <img src="../img/financial.png" alt="financial" class="blog__list-img">
                     <p class="blog__list-text">23rd August 2018</p>
@@ -91,7 +91,7 @@
                     <p class="blog__list-offer">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
                 </li>
                 <li class="blog__list-item">
-                    <img src="../img/tangle.png" alt="tangle" class="blog__list-img">
+                    <img src="../img/growing.png" alt="tangle" class="blog__list-img">
                     <p class="blog__list-text">23rd August 2018</p>
                     <h3 class="blog__list-header">Top 5 fastest growing it service companies in philly</h3>
                     <p class="blog__list-offer">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>

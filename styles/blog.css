@@ -1,12 +1,5 @@
-/* Раздел главной страницы */
-.products {
-    /* position: relative; */
-    /* display: flex; */
-    /* margin-top: 60px; */
-}
-
-.products__title {
-    /* position: absolute; */
+.blog__main {
+    font-weight: 700;
     font-size: 40px;
     line-height: 49px;
     margin-top: 60px;
@@ -15,26 +8,28 @@
     margin-bottom: 0;
 }
 
-.products__lists {
+/* Раздел главной страницы */
+.blog__list {
     display: flex;
     margin-top: 15px;
     /* margin-bottom: 0; */
     padding: 0;
+    margin-bottom: 50px;
 }
 
-.products__lists-item {
+.blog__list-item {
     margin-right: 20px;
 }
 
-.products__lists-text {
-    font-family: 'Crimson Text', Arial, sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #1E0606;
-    text-decoration: none;
-}
+.blog__list-text {
+        font-family: 'Crimson Text', Arial, sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #1E0606;
+        text-decoration: none;
+    }
 
 .products__list1 {
     display: flex;

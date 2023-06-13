@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLK</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/toys.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
     <!--Шапка сайта-->
     <header class="header container">
         <a class="header__logo" href="/">
-            <img class="header__logo-img" src="./img/DLK.png" alt="Logotype of DLK"
+            <img class="header__logo-img" src="../img/DLK.png" alt="Logotype of DLK"
             width="100.08px" height="52px">
         </a>
         <nav class="header__nav">
@@ -34,7 +35,7 @@
         </nav>   
         <ul class="header__additional-list">
             <li class="header__additional-item">
-                <img class="header__additional-img" src="./img/magnifyingGlass.png" alt="CONTACT US">
+                <img class="header__additional-img" src="../img/magnifyingGlass.png" alt="CONTACT US">
             </li>
             <li class="header__additional-item">
                 <a class="header__additional-link" href="#">CONTACT US</a>
@@ -42,68 +43,130 @@
         </ul>   
     </header>
     <main>
-        <section class="filter">
-            <h1 class="filter__toy">TOY FOR KIDS</h1>
-            <ul class="filter__toy-list">
-                <li class="filter__toy-item">
-                    <a href="/" class="filter__toy-text" href="#">Home</a>
+        <section class="products container">
+            <h1 class="products__title">TOY FOR KIDS</h1>
+            <ul class="products__lists">
+                <li class="products__lists-item">
+                    <a href="/" class="products__lists-text" href="#">Home</a>
                 </li>
-                <li class="filter__toy-item">
-                    <button class="filter__toy-vector">
-                        <img src="../img/arrow-right.svg" alt="#" class="products__toy-img">
-                    </button>            
+                <li class="products__lists-item">
+                    <img src="../img/icon.png" alt="#" class="products__lists-icon">
                 </li>
-                <li class="filter__toy-item">
-                    <a href="/" class="filter__toy-text" href="#">Catalog</a>
+                <li class="products__lists-item">
+                    <a href="/" class="products__lists-text" href="#">Catalog</a>
                 </li>
-                <li class="filter__toy-item">
-                    <button class="filter__toy-vector">
-                        <img src="../img/arrow-right.svg" alt="#" class="products__toy-img">
-                    </button>            
+                <li class="products__lists-item">
+                    <img src="../img/icon.png" alt="#" class="products__lists-icon">
                 </li>
-                <li class="filter__toy-item">
-                    <a href="/" class="filter__toy-text" href="#">Toys</a>
+                <li class="products__lists-item">
+                    <a href="/" class="products__lists-text" href="#">Toys</a>
                 </li>
             </ul>
-            <div>
-            
+            <div class="filter">
+                <div class="filter__selection">
+                    <h4 class="filter__selection-text filter__font">Cost</h4>
+                    <form class="filter__selection-slider" action="">
+                        <p class="filter__selection-volume">
+                            <input class="filter__selection-input" type="range" id="star" name="volume" min="0" max="500" value="25">
+                        </p>
+                    </form>
+                </div>
+                <fieldset class="filter__color">
+                    <h4 class="filter__color-text filter__font">Color</h4>
+                    <ul class="filter__color-list">
+                        <li class="filter__color-item">
+                            <input class="filter__color-input" type="checkbox" id="Black">
+                            <label class="filter__color-label filter__font" for="Black">Black</label>
+                        </li>
+                        <li class="filter__color-item">
+                            <input class="filter__color-input" type="checkbox" id="Blue">
+                            <label class="filter__color-label filter__font" for="Blue">Blue</label>
+                        </li>
+                        <li class="filter__color-item">
+                            <input class="filter__color-input" type="checkbox" id="Green">
+                            <label class="filter__color-label filter__font" for="Green">Green</label>
+                        </li>
+                        <li class="filter__color-item">
+                            <input class="filter__color-input" type="checkbox" id="White">
+                            <label class="filter__color-label filter__font" for="White">White</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter__choice">
+                    <h4 class="filter__choice-text filter__font">Delivery</h4>
+                    <ul class="filter__choice-list">
+                        <li class="filter__choice-item">
+                            <input class="filter__choice-input" type="radio" id="Free shipping">
+                            <label class="filter__choice-label filter__font" for="Free shipping">Free shipping</label>
+                        </li>
+                        <li class="filter__choice-item">
+                            <input class="filter__choice-input" type="radio" id="Fast shipping">
+                            <label class="filter__choice-label filter__font" for="Fast shipping">Fast shipping</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter__amount">
+                    <h4 class="filter__amount-text filter__font">Amount</h4>
+                    <ul class="filter__amount-list">
+                        <li class="filter__amount-item">
+                            <input class="filter__amount-input" type="radio" id="Free shipping">
+                            <label class="filter__amount-label filter__font" for="Free shipping">Free shipping</label>
+                        </li>
+                        <li class="filter__amount-item">
+                            <input class="filter__amount-input" type="radio" id="Fast shipping">
+                            <label class="filter__amount-label filter__font" for="Fast shipping">Fast shipping</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button class="filter__search filter__font" type="submit">APPLI</button>
             </div>
             <ul class="filter__product">
                 <li class="filter__product-item">
-                    <img src="../img/softchair.png" alt="softchair" class="filter__product-img">
-                    <h3 class="filter__product-text">SHARKY BEAN BAG CHAIR COVER</h3>
-                    <h3 class="filter__product-price">$60.00 USD</h3>
+                    <img class="filter__product-img" src="../img/softchair.png" alt="softchair" width="380px" height="385px">
+                    <h3 class="filter__product-text filter__font">SHARKY BEAN BAG CHAIR COVER</h3>
+                    <h3 class="filter__product-price filter__font">$60.00 USD</h3>
                 </li>
                 <li class="filter__product-item">
-                    <img src="../img/chandelier.png" alt="gatcha" class="filter__product-img">
-                    <h3 class="filter__product-text">BRASS DECO FRAMES</h3>
-                    <h3 class="filter__product-price">$66.00 USD</h3>
+                    <img class="filter__product-img"  src="../img/chandelier.png" alt="gatcha" width="380px" height="385px">
+                    <h3 class="filter__product-text filter__font">BRASS DECO FRAMES</h3>
+                    <h3 class="filter__product-price filter__font">$66.00 USD</h3>
                 </li>
                 <li class="filter__product-item">
-                    <img src="../img/apron.png" alt="apron" class="filter__product-img">
-                    <h3 class="filter__product-text">CIBO FULL APRON</h3>
-                    <h3 class="filter__product-price">$60.00 USD</h3>
+                    <img class="filter__product-img" src="../img/apron.png" alt="apron" width="380px" height="385px">
+                    <h3 class="filter__product-text filter__font">CIBO FULL APRON</h3>
+                    <h3 class="filter__product-price filter__font">$60.00 USD</h3>
                 </li>
-                <li class="filter__product-item">
-                    <img src="../img/gatcha.png" alt="gatcha" class="filter__product-img">
-                    <h3 class="filter__product-text">GATCHA GATCHA GUMBULL MACHINE</h3>
-                    <h3 class="filter__product-price">$56.00 USD</h3>
-                </li>
-                <li class="filter__product-item">
-                    <img src="../img/advent.png" alt="advent" class="filter__product-img">
-                    <h3 class="filter__product-text">CHRISTMAS ADVENT CANDLE</h3>
-                    <h3 class="filter__product-price">$29.00 USD</h3>
-                </li>
-                <li class="filter__product-item">
-                    <img src="../img/tangle.png" alt="tangle" class="filter__product-img">
-                    <h3 class="filter__product-text">TANGLE SPINNING TEA LIGHT</h3>
-                    <h3 class="filter__product-price">$56.00 USD</h3>
             </ul>
+            <ul class="filter__product">               
+                <li class="filter__product-item">
+                    <img sclass="filter__product-img" src="../img/gatcha.png" alt="gatcha" width="380px" height="385px">
+                    <h3 class="filter__product-text filter__font">GATCHA GATCHA GUMBULL MACHINE</h3>
+                    <h3 class="filter__product-price filter__font">$56.00 USD</h3>
+                </li>
+                <li class="filter__product-item">
+                    <img class="filter__product-img" src="../img/advent.png" alt="advent" width="380px" height="385px">
+                    <h3 class="filter__product-text filter__font">CHRISTMAS ADVENT CANDLE</h3>
+                    <h3 class="filter__product-price filter__font">$29.00 USD</h3>
+                </li>
+                <li class="filter__product-item">
+                    <img class="filter__product-img" src="../img/tangle.png" alt="tangle" width="380px" height="382px">
+                    <h3 class="filter__product-text filter__font">TANGLE SPINNING TEA LIGHT</h3>
+                <h3 class="filter__product-price filter__font">$56.00 USD</h3>
+            </ul>
+            
+
+
             <ul class="filter__page">
+                <li class="filter__page-item1">
+                    <img class="filter__page-left" src="../img/left.png" alt="#" width="13px" height="26px">
+                </li>
                 <li class="filter__page-item">1</li>
                 <li class="filter__page-item">2</li>
                 <li class="filter__page-item">3</li>
                 <li class="filter__page-item">4</li>
+                <li class="filter__page-item1">
+                    <img class="filter__page-right" src="../img/right.png" alt="#" width="13px" height="26px">
+                </li>
             </ul>
         </section>
     </main>
@@ -160,18 +223,18 @@
             <form class="footer__mail">
                 <input class="footer__mail-input" type="email" id="email" placeholder="Email"><button type="submit" class="footer__mail-btn">JOIN</button>
             </form>                     
-            <a href="/"><img class="media-one" src="./img/facebook.png" alt="facebook"  width="30px" height="30px"></a>
-            <a href="/"><img class="media-two" src="./img/Twitter.png" alt="twitter" width="30px" height="30px"></a>
-            <a href="/"><img class="media-tree" src="./img/Pinterest.png" alt="pinterest" width="30px" height="30px"></a>
-            <a href="/"><img class="media-four" src="./img/instagram.png" alt="instagram" width="30px" height="30px"></a>   
+            <a href="/"><img class="media-one" src="../img/facebook.png" alt="facebook"  width="30px" height="30px"></a>
+            <a href="/"><img class="media-two" src="../img/Twitter.png" alt="twitter" width="30px" height="30px"></a>
+            <a href="/"><img class="media-tree" src="../img/Pinterest.png" alt="pinterest" width="30px" height="30px"></a>
+            <a href="/"><img class="media-four" src="../img/instagram.png" alt="instagram" width="30px" height="30px"></a>   
         </div>
         <div class="footer__bottom">
             <p class="footer__bottom-leftstr">Company Rating</p>
-            <img class="footer__bottom-img footer__bottom-first" src="./img/Star.png" alt="star" class="leftstr__img">
-            <img class="footer__bottom-img" src="./img/Star.png" alt="star" class="leftstr__img">
-            <img class="footer__bottom-img" src="./img/Star.png" alt="star" class="leftstr__img">
-            <img class="footer__bottom-img" src="./img/Star.png" alt="star" class="leftstr__img">
-            <img class="footer__bottom-img" src="./img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img footer__bottom-first" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
             <p class="footer__bottom-centrstr">Copyritht © 2018 Dlk • Design Life Kids</p>
             <p class="footer__bootom-rightstr">Web Design - Direct Line Development</p>
         </div>
