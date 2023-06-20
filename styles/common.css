@@ -24,6 +24,15 @@ h1 {
     margin: 0 auto;
 }
 
+/* текст в кнопках */
+.filter__font {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
 /* Общие показатели шапки */
 .header {
     font-family: "Open Sans", Arial, sans-serif;
@@ -97,6 +106,37 @@ h1 {
 .header__additional-link {
     text-decoration: none;
     font-weight: 700;
+}
+
+.products__title {
+    /* position: absolute; */
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 0;
+}
+
+.products__lists {
+    display: flex;
+    margin-top: 15px;
+    /* margin-bottom: 0; */
+    padding: 0;
+}
+
+.products__lists-item {
+    margin-right: 20px;
+}
+
+.products__lists-text {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    text-decoration: none;
 }
 
 .footer {

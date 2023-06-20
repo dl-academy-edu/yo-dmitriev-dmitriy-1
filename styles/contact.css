@@ -1,0 +1,130 @@
+/* Форма Window Modal */
+.contact {
+    display: flex;
+    position: absolute;
+    background: #E5E5E5;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.contact__form {
+    display: block;
+    position: relative;
+    border: none;
+}
+
+.text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}   
+
+.contact__text-name {
+    margin-top: 42px;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+
+.contact__label-wrapper {
+    margin: 3px 40px 0 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFF;
+}
+
+.phone {
+    display: flex;
+}
+
+.contact__two-input {
+    display: block;
+    margin: 20px 20px 0 40px;
+}
+
+.contact__text-phone {
+    margin-bottom: 3px;
+}
+
+.contact__two-email {
+    display: block;
+    margin: 20px 40px 0 0;
+}
+
+.contact__text-email {
+    margin-bottom: 3px;
+}
+
+input [type="email"] {
+    background: #FFF;
+}
+
+.contact__label-message {
+    display: block;
+    margin: 20px 40px 0 40px;
+}
+
+.contact__text-message {
+    margin-bottom: 3px;
+    border: none;
+}
+
+.contact__area {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 200px;
+}
+
+.contact__payment {
+    position: absolute;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.contact__item-text {
+    margin-top: 22px;
+    margin-left: 74px;
+}
+
+.contact__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    background: #000;
+    width: 106px;
+    height: 40px;
+    color: #FFF;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 42px;
+}
+
+.contact__text {
+    margin-top: 50px;
+    margin-left: 790px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.contact__help {
+    margin-top: 20px;
+    margin-left: 790px;
+    margin-bottom: 390px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #C29974;
+    text-transform: uppercase;
+}
