@@ -1,4 +1,8 @@
 /* Форма Window Modal */
+.fon {
+    position: absolute;
+}
+
 .contact {
     display: flex;
     position: absolute;

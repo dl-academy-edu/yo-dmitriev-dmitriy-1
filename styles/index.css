@@ -148,21 +148,6 @@
     align-items: center;
 }
 
-.products__list-titles {
-    position: absolute;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    color: #FFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-.products__list-titles:hover {
-    text-decoration: underline;
-}
-
 .products__list-item1 {
     /* min-width: 280px; */
     /* height: 270px; */

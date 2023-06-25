@@ -139,6 +139,25 @@ h1 {
     text-decoration: none;
 }
 
+.products__list-titles {
+    position: absolute;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.products__list-titles:hover {
+    text-decoration: underline;
+}
+
+.products__list-titles:active {
+    cursor: none;
+}
+
 .footer {
     display: flex;
     background: #434343;
@@ -216,30 +235,17 @@ h1 {
     text-decoration: none;
 }
 
+.footer__list-item:hover {
+    opacity: 50%;
+}
+
+.footer__list-item:active {
+    opacity: 20%;
+}
+
 .footer__customer {
     margin-top: 174px;
     margin-left: 400px;
-}
-
-.footer__customer-ul {
-    position: absolute;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    padding: 0;
-    margin: 0;
-
-}
-
-.footer__customer-list {
-    margin-bottom: 15px;
-}
-
-.footer__customer-item {
-    color: #FFF;
-    text-decoration: none;
 }
 
 .footer__connect {
@@ -302,6 +308,14 @@ input::-webkit-input-placeholder {
     margin-left: 10px;
 }
 
+.media-one:hover {
+    opacity: 50%;
+}
+
+.footer__connect-media:active {
+    opacity: 50%;
+}
+
 .footer__bottom {
     position: absolute;
     margin-top: 0 auto;
@@ -318,6 +332,20 @@ input::-webkit-input-placeholder {
     width: 400px;
 }
 
+.footer__bottom-leftstr:hover {
+    color: #C29974;
+    cursor: pointer;
+}
+
+.footer__bottom-leftstr:active {
+    color: #C29974;
+    cursor: none;
+}
+
+.leftstr__img:hover {
+    color: #836E5B;
+}
+
 .footer__bottom-first {
     margin-left: 258px;
 }
@@ -325,6 +353,10 @@ input::-webkit-input-placeholder {
 .footer__bottom-img {
     margin-top: 461px;
     padding-left: 3px;
+}
+
+.footer__bottom-img:hover {
+    color: #C29974;
 }
 
 .footer__bottom-centrstr {
@@ -341,6 +373,15 @@ input::-webkit-input-placeholder {
     margin-top: -63px;
     padding-top: 23px;
     margin-left: 910px;
-    color: #FFF;
+    color: #A2A2A2;
     width: 400px;
+}
+
+.footer__bootom-rightstr:hover {
+    /* border-top: 1px solid #666666; */
+    /* margin-top: -63px; */
+    /* padding-top: 23px; */
+    /* margin-left: 910px; */
+    color: #FFF;
+    /* width: 400px; */
 }
