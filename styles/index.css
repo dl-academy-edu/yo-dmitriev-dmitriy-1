@@ -1,17 +1,480 @@
-/* THE OOH NOO COLLECTION */
+/* Раздел главной страницы */
 .banner { 
+    position: relative;
     background-color: #eee4db;
-    width: 1180px;
+    display: flex;
     height: 411px;
-    top: 231px;
+    margin-top: 129px;
+    /* margin: 129px 110px 0px 110px; */
+    /* width: 1080; */
 }
 
-.products__list-item {
-    display: inline-block ;
+.banner__rectangle-list {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 0%;
+    padding-inline-start: 0%;
+    /* padding: 3px 31px; */
+    /* cursor: pointer;   */
 }
 
+.banner__rectangle-text {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+    margin-top: 17px;
+    margin-left: 28px;
+    margin-bottom: 0px;
+}
 
+.banner__rectangle-item {
+    /* margin-top: 0px; */
+    display: list-item;
+    text-align: left;
+    cursor: pointer;
+    border: none;
 
+    /* margin: 10px 0 0 31px; */
+    /* padding: 10px 0px 0px 31px; */
+}
+
+.banner__rectangle-btn1 {
+    background: #1E0606;
+    color: #1E0606;
+    margin-left: 31px;     
+    background: rgba(30, 6, 6, 0.6);
+    border: none;
+}
+
+.banner__rectangle-btn {
+    margin-left: 31px;
+    color: #D6CAC2;
+    border: none;
+    background: #D6CAC2
+}
+
+/* Прозрачность при наведении */
+.banner__rectangle-btn:hover {
+    background: #1E0606;
+    color: #1E0606;
+    /* border-color: #1E0606; */
+    /* background-color: transparent; */
+}
+
+.banner__name {
+    margin-top: 70px;
+    margin-bottom: 0%;
+    padding-left: 44px;
+    overflow: hidden;
+    max-width: 355px ;
+}
+
+.banner__name-list {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+.banner__name-title {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.banner__name-btn {
+    padding: 0%;
+    border: none;
+    background-color: #1E0606;
+    text-align: center;
+    color: #FFF;
+}
+
+.banner__name-img {
+    position: absolute;
+    transform: translate(71%, -19%);
+    /* margin: 142px 555px; */
+}
+
+.banner__main {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background: #C29974;
+    color: #FFF;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Раздел категория продуктов главной страницы */
 .products {
-    background-color: #eee4db;
+    /* position: relative; */
+    /* background-color: #eee4db; */
+    /* height: 411px; */
+    /* margin-top: 129px; */
 }
+
+.products__title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin-top: 90px;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    margin-top: 30px;
+    padding-left: 0;
+ 
+}
+
+.products__item {
+    position: absolute;
+    align-items: center;
+}
+
+.products__list-item1 {
+    /* min-width: 280px; */
+    /* height: 270px; */
+    background-color: #DBE4DB;
+    padding: 46px 18px;
+}
+
+.products__list-img1 {
+    background-image: url('../img/apparelKids.png');
+    background-blend-mode: multiply;
+}
+
+.products__list-title1 {
+    margin: 57px 57px;
+}
+
+.products__list-item2 {
+    background-color: #EADDD3;
+    padding: 13px 36px;
+}
+
+
+.products__list-img2 {
+    background-image: url('../img/holidayShop.png');
+    background-blend-mode: multiply;
+}
+
+.products__list-title2 {
+    margin: 90px 27px;
+}
+
+.products__list-item3 {
+    background-color: #F8F2DA;
+    padding: 0px 5px;
+}
+
+
+.products__list-img3 {
+    background-image: url('../img/toys.png');
+    background-blend-mode: multiply;
+}
+
+.products__list-title3 {
+    margin: 119px 100px;
+}
+
+.products__list-item4 {
+    background-color: #D5D4E1;
+    padding: 10px 20px;
+}
+
+
+.products__list-img4 {
+    background-image: url('../img/accessories.png');
+    background-blend-mode: multiply;
+}
+
+.products__list-title4 {
+    margin: 109px 24px;
+}
+
+.products__btn {
+    display: flex;
+    margin-top: 33px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.products__btn-item {
+    position: relative;
+    /* background: #70BBDC; */
+    margin-right: 6px;
+    border: 5px 12px;
+    box-sizing: border-box;
+}
+
+.products__btn-left {
+    background-image: url('../img/arrow-left.svg');
+    /* background-size: cover; */
+    background-color: #d0eefb;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.products__btn-right {
+    background-image: url('../img/arrow-right.svg');
+    /* background-size: cover; */
+    background-color: #d0eefb;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.products__description {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 580px;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+/* Предыстория сайта */
+.delivery {
+    display: flex;
+    margin-top: 94px;
+}
+
+.story__item-delivery {
+    display: block;
+    margin-left: 121px;
+    color: #1E0606;
+}
+
+.story__description {
+    /* position: absolute; */
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-left: 601px; */
+    text-transform: uppercase;
+}
+
+.story__delivery {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 7px;
+    background: #d0eefb;
+    width: 326px;
+    height: 55px;
+    padding: 11px;
+    padding-left: 60px;
+    margin-left: -61px;
+}
+
+.story__guarantee {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 72px;
+}
+
+.story__credit {
+    position: absolute;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-top: 127px;
+}
+
+.delivery__text-one {
+    position: absolute;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 190px;
+    max-width: 480px;
+}
+
+.delivery__text-two {
+    position: absolute;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 271px;
+    max-width: 480px;
+}
+
+.delivery__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    position: absolute;
+    background: #000;
+    margin-top: 385px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+}
+
+/* Наши партнеры */
+.partners__list {
+    display: flex;
+    margin-top: 90px;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+/* Дизайнерская жизнь детей */
+.life {
+    display: flex;
+    /* margin-left: 30px; */
+    /* flex-direction: row; */
+    /* background: #E1F0F7; */
+    /* width: 543px; */
+    /* height: 228px; */
+    /* margin-left: 110px; */
+}
+
+.life__kids-dsn {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin: 90px 0 10px 30px;
+    margin-bottom: 10px;
+}
+
+.life__kids-list {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    margin-left: 30px;
+    line-height: 34px;
+}
+
+.life__kids-text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -65px;
+    margin-bottom: 0;
+    color: #1E0606;
+    /* text-align: center; */
+    background: #E1F0F7;
+    width: 543px;
+    height: 228px;
+    padding: 74px 30px 0;
+}
+
+.life__kids-btn {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    /* position: absolute; */
+    background: #000;
+    /* margin-top: 385px; */
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    margin-top: -67px;
+    margin-left: 30px;
+}
+
+.contacts__cont {
+    display: flex;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    margin: 90px 0 0 87px;
+    margin-left: 87px;
+    text-align: center;
+}
+
+.contacts__text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -23px;
+    margin-left: 57px;
+    color: #1E0606;
+    /* text-align: center; */
+    background: #E1F0F7;
+    width: 543px;
+    height: 209px;
+    padding: 41px 30px 0;
+}
+
+.contacts__map {
+    display: flex;
+    /* margin-top: 385px; */
+    margin-top: -77px;
+    margin-left: 87px;
+}
+
+
+
+
+

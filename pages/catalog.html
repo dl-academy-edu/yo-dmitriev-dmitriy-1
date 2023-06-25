@@ -10,133 +10,159 @@
     <link rel="stylesheet" href="../styles/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&family=Open+Sans:wght@300;400;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@200;300;400;700&family=Open+Sans:wght@200;300;400;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <header>
-        <a href="/"><img src="#" alt="Logotype of DLK"></a>
-        <nav class="nav">
-            <ul>
-                <li class="nav__list"><a href="#">BLOG</a></li>
-                <li class="nav__list"><a href="#">CATALOG</a></li>
-                <li class="nav__list"><a href="#">ABOUT US</a></li>
-                <li class="nav__list">
-                    <img src="../img/magnifyingGlass.png" alt="CONTACT US">
-                    <a href="#" class="nav__list-search">CONTACT US</a>                
+    <!--Шапка сайта-->
+    <header class="header container">
+        <a class="header__logo" href="/">
+            <img class="header__logo-img" src="../img/DLK.png" alt="Logotype of DLK"
+            width="100.08px" height="52px">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-item-link" href="../pages/blog.html">BLOG</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-link" href="../pages/catalog.html">CATALOG</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-link" href="../pages/contact.html">ABOUT US</a></li>
+            </ul>
+        </nav>   
+        <ul class="header__additional-list">
+            <li class="header__additional-item">
+                <img class="header__additional-img" src="../img/magnifyingGlass.png" alt="CONTACT US">
+            </li>
+            <li class="header__additional-item">
+                <a class="header__additional-link" href="#">CONTACT US</a>
+            </li>
+        </ul>   
+    </header>
+    <!--Главное содержимое страницы-->
+    <main>
+        <!--Разделы главной страницы-->
+        <section class="products container">
+            <h1 class="products__title">CATEGORY PRODUCTS</h1>
+            <ul class="products__lists">
+                <li class="products__lists-item">
+                    <a href="/" class="products__lists-text" href="../index.html">Home</a>
+                </li>
+                <li class="products__lists-item">
+                    <img src="../img/icon.png" alt="#" class="products__lists-icon">
+                </li>
+                <li class="products__lists-item">
+                    <a href="/" class="products__lists-text" href="../pages/catalog.html">Catalog</a>
                 </li>
             </ul>
-        </nav>      
-    </header>
-    <main>
-        <section class="products">
-            <h1 class="products__title">CATEGORY PRODUCTS</h1>
-            <a href="/" class="products__title-item">Home</a>
-            <button class="products__btn">
-                <img src="../img/Vector2.png" alt="#" class="products__btn-vector">
-            </button>            
-            <a href="/" class="products__title-item">Catalog</a>
-            <ul class="products__list">
-                <li class="products__list-item">
-                    <img src="../img/apparelKids.png" alt="APPAREL KIDS" class="products__img">
-                    <h3 class="products__list-title">APPAREL KIDS</h3>
+            <ul class="products__list1">
+                <li class="products__list1-item1" style="width: 280px; height: 270px">
+                    <img class="products__list1-img1 products__item" src="../img/apparelкids.png" alt="APPAREL KIDS" width="244" height="177">
+                    <a class="products__list1-title1 products__list-titles" href="#" style="width: 129px; height: 64px">APPAREL KIDS</a>
                 </li>
-                <li class="products__list-item">
-                    <img src="../img/holidayShop.png" alt="HOLIDAY SHOP" class="products__img">
-                    <h3 class="products__list-title">HOLIDAY SHOP</h3>
+                <li class="products__list1-item2" style="width: 280px; height: 270px">
+                    <img class="products__list1-img2 products__item" src="../img/holidayShop.png" alt="HOLIDAY SHOP" width="208" height="244">
+                    <a class="products__list1-title2 products__list-titles" href="#" style="width: 155px ; height: 64px">HOLIDAY SHOP</a>
                 </li>
-                <li class="products__list-item">
-                    <img src="../img/toys.png" alt="TOYS" class="products__img">
-                    <h3 class="products__list-title">TOYS</h3>
+                <li class="products__list1-item3" style="width: 280px; height: 270px">
+                    <img class="products__list1-img3 products__item" src="../img/toys.png" alt="TOYS" width="270" height="270">
+                    <a class="products__list1-title3 products__list-titles" href="#" style="width: 71px; height: 32px">TOYS</a>
                 </li>
-                <li class="products__list-item">
-                    <img src="../img/accessories.png" alt="ACCESSORIES" class="products__img">
-                    <h3 class="products__list-title">ACCESSORIES</h3>
+            </ul>
+            <ul class="products__list2">
+                <li class="products__list2-item4" style="width: 280px; height: 270px">
+                    <img class="products__list2-img4 products__item" src="../img/accessories.png" alt="ACCESSORIES" width="240" height="250">
+                    <a class="products__list2-title4 products__list-titles" href="#" style="width: 192px; height: 32px">ACCESSORIES</a>
                 </li>
-                <li class="products__list-item">
-                    <img src="../img/sale.png" alt="SALE" class="products__img">
-                    <h3 class="products__list-title">SALE</h3>
+
+                <li class="products__list2-item5" style="width: 280px; height: 270px">
+                    <img class="products__list2-img5 products__item" src="../img/sale.png" alt="SALE" width="248" height="248">
+                    <a class="products__list2-title5 products__list-titles" href="#" style="width: 70px; height: 32px">SALE</a>
                 </li>
-                <li class="products__list-item">
-                    <img src="../img/appareladults.png" alt="APPAREL ADULTS" class="products__img">
-                    <h3 class="products__list-title">APPAREL ADULTS</h3>
+                <li class="products__list2-item6" style="width: 280px; height: 270px">
+                    <img class="products__list2-img6 products__item" src="../img/appareladults.png" alt="APPAREL ADULTS" width="271" height="204">
+                    <a class="products__list2-title6 products__list-titles" href="#" style="width: 155px; height: 64px">APPAREL ADULTS</a>
                 </li>
             </ul>
         </section>
-        <h2 class="product__list">PRODUCT DESCRIPTION</h2>
+        <h1 class="product__list">PRODUCT DESCRIPTION</h1>
         <div class="product">
             <p class="product__text">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
             <p class="product__text">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
             <p class="product__text">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
         </div>
-        <!--Подвал сайта-->
-        <footer class="footer">            
-            <h4 class="footer__text">Navigation</h4>
-            <h4 class="footer__text">Customer Information</h4>
-            <h4 class="footer__text">Connect</h4>
-            <div class="footer__nav">
-                <ul class="footer__ul">
-                    <li class="footer__list">
-                        <a href="#" class="footer__item1">About Us</a>
-                    </li>
-                    <li class="footer__list">
-                        a href="#" class="footer__item1">Blog</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="#" class="footer__item1">Design Services</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="#" class="footer__item1">Featured On</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="#" class="footer__item1">2018 Holiday Catalog</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="#" class="footer__item1">Shop By designers</a>
-                    </li>
-                </ul>                
-            </div>
-            <div class="footer__customer">
-                <ul>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Contact Us</a>
-                    </li>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Sale Exclusions</a>
-                    </li>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Shipping & Returns</a>
-                    </li>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Terms & Conditions</a>
-                    </li>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Privacy Policy</a>
-                    </li>
-                    <li class="line__item2">
-                        <a href="#" class="line__item2">Search</a>
-                    </li>
-                </ul>                     
-            </div>
-            <div class="footer__connect"> 
-                form class="email">
-                    <input type="email" name="email"><button class="email__btn">JOIN</button>
-                </form>                     
-                <a href="/"><img src="#" alt="#" class="media"></a>
-                <a href="/"><img src="#" alt="#" class="media"></a>
-                <a href="/"><img src="#" alt="#" class="media"></a>
-                <a href="/"><img src="#" alt="#" class="media"></a>   
-            </div>
-            <div>
-                <p class="leftstr">Company Rating</p>
-                <img src="../img/Star.png" alt="star" class="leftstr__img">
-                <img src="../img/Star.png" alt="star" class="leftstr__img">
-                <img src="../img/Star.png" alt="star" class="leftstr__img">
-                <img src="../img/Star.png" alt="star" class="leftstr__img">
-                <img src="../img/Star.png" alt="star" class="leftstr__img">
-            <p class="centrstr">Copyritht © 2018 Dlk • Design Life Kids</p>
-            <p class="rightstr">Web Design - Direct Line Development</p>
-            </div>
-        </footer>        
     </main>
+    <!--Подвал сайта-->
+    <footer class="footer">            
+        <h4 class="footer__text footer__one">Navigation</h4>
+        <h4 class="footer__text footer__two">Customer Information</h4>
+        <h4 class="footer__text footer__tree">Connect</h4>
+        <div class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">About Us</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Blog</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Design Services</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Featured On</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">2018 Holiday Catalog</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Shop By designers</a>
+                </li>
+            </ul>                
+        </div>
+        <div class="footer__customer">
+            <ul class="footer__ul">
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Contact Us</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Sale Exclusions</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Shipping & Returns</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Terms & Conditions</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Privacy Policy</a>
+                </li>
+                <li class="footer__list">
+                    <a href="#" class="footer__list-item">Search</a>
+                </li>
+            </ul>                     
+        </div>
+        <div class="footer__connect"> 
+            <form class="footer__mail">
+                <input class="footer__mail-input" type="email" id="email" placeholder="Email">
+                <button type="submit" class="footer__mail-btn">JOIN</button>
+            </form>                     
+            <a class="footer__connect-media" href="/"><img class="media-one" src="../img/facebook.png" alt="facebook"  width="30px" height="30px"></a>
+            <a class="footer__connect-media" href="/"><img class="media-two" src="../img/Twitter.png" alt="twitter" width="30px" height="30px"></a>
+            <a class="footer__connect-media" href="/"><img class="media-tree" src="../img/Pinterest.png" alt="pinterest" width="30px" height="30px"></a>
+            <a class="footer__connect-media" href="/"><img class="media-four" src="../img/instagram.png" alt="instagram" width="30px" height="30px"></a>   
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__bottom-leftstr">Company Rating</p>
+            <img class="footer__bottom-img footer__bottom-first" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <img class="footer__bottom-img" src="../img/Star.png" alt="star" class="leftstr__img">
+            <p class="footer__bottom-centrstr">Copyritht © 2018 Dlk • Design Life Kids</p>
+            <p class="footer__bootom-rightstr">Web Design - Direct Line Development</p>
+        </div>
+    </footer>              
 </body>
 </html>

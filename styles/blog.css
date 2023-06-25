@@ -1,0 +1,51 @@
+/* Раздел главной страницы */
+.blog__list {
+    display: flex;
+    margin-top: 15px;
+    /* margin-bottom: 0; */
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.blog__list-item {
+    margin-right: 20px;
+}
+
+.blog__list-text {
+        font-family: 'Crimson Text', Arial, sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #1E0606;
+        text-decoration: none;
+    }
+
+.products__list1 {
+    display: flex;
+    align-items: start;
+    /* justify-content: space-between; */
+    /* margin-left: 20px; */
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.filter__page {
+    display: flex;
+    margin-top:78px;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+.filter__page-left {
+    margin-right: 457px;
+}
+
+.filter__page-item {
+margin-right: 66px;
+}
+
+.filter__page-right {
+    margin-left: 457px;
+}
